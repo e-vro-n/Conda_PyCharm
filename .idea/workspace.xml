@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="add some_module and dit_test">
+    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="change dit_test">
+      <change afterPath="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TSU_tasks/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exer/dict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exer/dict_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29wiSLfhI3ov0u0JGU7tkiJIQL1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,7 +53,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../python practice" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.dict_test">
+  <component name="RunManager" selected="Python.Pract_001_dict">
+    <configuration name="Pract_001_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Conda_PyCharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TSU_tasks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dict_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Conda_PyCharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Pract_001_dict" />
         <item itemvalue="Python.dict_test" />
         <item itemvalue="Python.some_module" />
         <item itemvalue="Python.test" />
@@ -165,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654700410530</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change dit_test">
+      <created>1654718597122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654718597122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,45 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add some_module and dit_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some_module and dit_test" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1654030769938">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1654030769938" />
-    <state x="821" y="423" key="Github.ShareDialog" timestamp="1654099307898">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="821" y="423" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1654099307898" />
-    <state x="766" y="230" key="Github.UntrackedFilesDialog" timestamp="1654099343009">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="766" y="230" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1654099343009" />
-    <state width="1593" height="285" key="GridCell.Tab.0.bottom" timestamp="1654707521634">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1593" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1654707521634" />
-    <state width="1593" height="285" key="GridCell.Tab.0.center" timestamp="1654707521633">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1593" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1654707521633" />
-    <state width="1593" height="285" key="GridCell.Tab.0.left" timestamp="1654707521633">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1593" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1654707521633" />
-    <state width="1593" height="285" key="GridCell.Tab.0.right" timestamp="1654707521634">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1593" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1654707521634" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1654099296941">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1654099296941" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1654700415394">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1654700415394" />
+    <MESSAGE value="change dit_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dit_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
