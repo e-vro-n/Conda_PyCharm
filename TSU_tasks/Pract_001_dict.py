@@ -102,7 +102,7 @@ def dic_name(d1):
     return dict_id_name
 
 
-print(dic_name(users))
+print('function', dic_name(users))
 # print(dic_name(users1))
 
 # б) теперь с помощью функции dic_name(d1) создадим список кортежей (пользовательб кол-во друзей)
@@ -114,27 +114,43 @@ print(num_friends_by_name)
 # 7)Сделаем сортировку списка по числу друзей:
 num_friends_by_name.sort(key=lambda x: (-x[1], x[0]))
 print(num_friends_by_name)
+
+
 # for el in num_friends_by_name:
 #     print(el)
 
 
 ### Изменить данную функцию, чтобы она выводила Имена пользователей из списка друзья друзей
+# а) выводит id друзей друзей:
 def friends_of_friends(user):
     user_id = user["id"]
-    return [ff_id
+    return sorted(set([ff_id
             for friend_id in friendships[user_id]
             for ff_id in friendships[friend_id]
-            if ff_id != user_id and ff_id not in friendships[user_id]]
+            if ff_id != user_id and ff_id not in friendships[user_id]]))
 
 
-print(friends_of_friends(users[0]))
+print('клава', friends_of_friends(users[10]))
 
+
+# б) выводит имена друзей друзей:
 def friends_of_friends_n(user):
-    user_id = user["name"]
-    return [ff_id
+    user_id = user["id"]
+    ff = sorted(set([ff_id
             for friend_id in friendships[user_id]
             for ff_id in friendships[friend_id]
-            if ff_id != user_id and ff_id not in friendships[user_id]]
+            if ff_id != user_id and ff_id not in friendships[user_id]]))
+    id_name = dic_name(users)
+    return [name[1] for id in ff for name in id_name if name[0] == id]
 
 
 print(friends_of_friends_n(users[0]))
+
+#  Создать список с кортежами (Имя пользователя , Список имен рекомендованных друзей) - то бишь пользователь и
+#  друзья его друзей)
+
+num_friends_by_friend = [(usr['name'], friends_of_friends_n(usr)) for usr in users]
+print('ff', num_friends_by_friend)
+
+for el in num_friends_by_friend:
+    print(el)

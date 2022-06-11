@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="change Pract_001_dict">
+    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="change Pract_001 to full 001">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" afterDir="false" />
     </list>
@@ -247,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654943017336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change Pract_001 to full 001">
+      <created>1654953964636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654953964636</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +274,8 @@
     <MESSAGE value="add Pract_001_dict" />
     <MESSAGE value="add NumPy_test" />
     <MESSAGE value="change Pract_001_dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="change Pract_001_dict" />
+    <MESSAGE value="change Pract_001 to full 001" />
+    <option name="LAST_COMMIT_MESSAGE" value="change Pract_001 to full 001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
