@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="add Pract_001_dict">
-      <change afterPath="$PROJECT_DIR$/Exer/NumPy_test.py" afterDir="false" />
+    <list default="true" id="61244f4f-bd92-4e56-809f-a01790b221bf" name="Default Changelist" comment="add NumPy_test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/TSU_tasks/Pract_001_dict.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.NumPy_test">
+  <component name="RunManager" selected="Python.Pract_001_dict">
     <configuration name="NumPy_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Conda_PyCharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,9 +181,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Pract_001_dict" />
         <item itemvalue="Python.NumPy_test" />
         <item itemvalue="Python.dict_test" />
-        <item itemvalue="Python.Pract_001_dict" />
         <item itemvalue="Python.some_module" />
         <item itemvalue="Python.test" />
       </list>
@@ -232,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654880496550</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add NumPy_test">
+      <created>1654881045097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654881045097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +258,8 @@
     <MESSAGE value="add some_module and dit_test" />
     <MESSAGE value="change dit_test" />
     <MESSAGE value="add Pract_001_dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Pract_001_dict" />
+    <MESSAGE value="add NumPy_test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NumPy_test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
