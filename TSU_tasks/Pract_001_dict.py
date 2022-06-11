@@ -13,6 +13,21 @@ users = [
     {"id": 10, "name": "Дима"},
     {"id": 11, "name": "Клава"}
 ]
+# сделал еще вариант входного словаря с данными для проверки универсальности работы
+# функции dic_name(d1) - ниже по коду ( для вычленения ключей входного списка соц сети)
+users1 = [
+    {"id": 1, "name": "Алекс", 'age': 18},
+    {"id": 2, "name": "Маша", 'age': 15},
+    {"id": 3, "name": "Яна", 'age': 21},
+    {"id": 4, "name": "Даша", 'age': 25},
+    {"id": 5, "name": "Макс", 'age': 19},
+    {"id": 6, "name": "Клим", 'age': 31},
+    {"id": 7, "name": "Женя", 'age': 28},
+    {"id": 8, "name": "Света", 'age': 33},
+    {"id": 9, "name": "Миша", 'age': 27},
+    {"id": 10, "name": "Дима", 'age': 19},
+    {"id": 11, "name": "Клава", 'age': 23}
+]
 print(type(users))
 # print(users)
 # for el in users:
@@ -57,7 +72,9 @@ for k, v in friendships.items():
     print(k, v)
 
 # 4)Создадим функцию определяющяя количество друзей у выбранного пользователя
-print(users[10])
+print('1x1x1', users[10])
+
+
 def number_of_friends(u):
     user_id = u['id']
     friend_ids = friendships[user_id]
@@ -67,3 +84,57 @@ def number_of_friends(u):
 print(users[10]['name'], number_of_friends(users[10]))
 
 # 5)Создадим функцию, выводящую на экран пользователей, отсортированных по количеству друзей
+
+# а)создадим вспомогательную функцию для вычленения значений ключей первоначального входного списка словарей отражающий
+# пользователей соцсети
+
+num_friends_by_name = []
+
+
+def dic_name(d1):
+    d1_keys = list(d1[0].keys())
+    dict_id_name = []
+    for el in d1:
+        prom_lst = []
+        for i in range(len(d1_keys)):
+            prom_lst.append(el[d1_keys[i]])
+        dict_id_name.append(prom_lst)
+    return dict_id_name
+
+
+print(dic_name(users))
+# print(dic_name(users1))
+
+# б) теперь с помощью функции dic_name(d1) создадим список кортежей (пользовательб кол-во друзей)
+for k, v in friendships.items():
+    num_friends_by_name.append((*[el[1] for el in dic_name(users) if k == el[0]], len(v)))
+
+print(num_friends_by_name)
+
+# 7)Сделаем сортировку списка по числу друзей:
+num_friends_by_name.sort(key=lambda x: (-x[1], x[0]))
+print(num_friends_by_name)
+# for el in num_friends_by_name:
+#     print(el)
+
+
+### Изменить данную функцию, чтобы она выводила Имена пользователей из списка друзья друзей
+def friends_of_friends(user):
+    user_id = user["id"]
+    return [ff_id
+            for friend_id in friendships[user_id]
+            for ff_id in friendships[friend_id]
+            if ff_id != user_id and ff_id not in friendships[user_id]]
+
+
+print(friends_of_friends(users[0]))
+
+def friends_of_friends_n(user):
+    user_id = user["name"]
+    return [ff_id
+            for friend_id in friendships[user_id]
+            for ff_id in friendships[friend_id]
+            if ff_id != user_id and ff_id not in friendships[user_id]]
+
+
+print(friends_of_friends_n(users[0]))
